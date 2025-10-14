@@ -18,6 +18,10 @@ public class ResaleShop {
 
     }
 
+    public ArrayList<Computer> getInventory() {
+        return this.inventory; 
+    }
+
     /**
      * Adds new computer to inventory
      * @param newComputer the computer to add to inventory 
