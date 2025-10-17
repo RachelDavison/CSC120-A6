@@ -58,54 +58,6 @@ public class Computer {
     }
 
     /**
-     * Get the operating system of the computer
-     * @return OS
-     */
-    public String getOS() {
-        return this.operatingSystem; 
-    }
-
-    /**
-     * Get the price of the computer
-     * @return price
-     */
-    public int getPrice() {
-        return this.price; 
-    }
-
-    /**
-     * Get the description of the computer
-     * @return description
-     */
-    public String getDescription() {
-        return this.description; 
-    }
-
-    /**
-     * Get the processor type of the computer
-     * @return processor type
-     */
-    public String getProcessorType(){
-        return this.processorType;
-    }
-
-    /**
-     * Get the hard drive capacity of the computer
-     * @return hard drive capacity
-     */
-    public int getHardDriveCapacity(){
-        return this.hardDriveCapacity;
-    }
-
-    /**
-     * Get the memory of the computer
-     * @return memory
-     */
-    public int getMemory(){
-        return this.memory;
-    }
-
-    /**
      * String to print for a computer 
      */
     public String toString() {
